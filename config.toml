@@ -1,0 +1,27 @@
+# baseURL = "https://your_domain.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Michele Veronesi"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Michele Veronesi"
+  headline = "Data Science and Engineering student, Computer Science graduated."
+  image = "img/author.jpg"  # path relative to static directory
+
+  links = [
+    { resume = { href="https://docs.google.com/document/d/1__nFQfTm5_Dy-ncfHqwoHJXt2lRk3ynttRqwRV1l4g8/edit?usp=sharing", text="Résumé" } },
+    { email = "mailto:michele.veronesi@hotmail.com" },
+    { github = "https://github.com/mveronesi" },
+    { linkedin = "https://linkedin.com/in/michele-veronesi" },
+    { telegram = "https://t.me/mveronesi" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
